@@ -1,0 +1,91 @@
+.titulo-galeria{
+    @include titulos;
+}
+.img1 {
+    grid-area: foto1;
+    background-image: url(../img/prod1.jpg);
+}
+
+.img2 {
+    grid-area: foto2;
+    background-image: url(../img/prod2.jpg);
+}
+
+.img3 {
+    grid-area: foto3;
+    background-image: url(../img/prod3.jpg);
+}
+
+.img4 {
+    grid-area: foto4;
+    background-image: url(../img/prod4.jpg);
+}
+
+.img5 {
+    grid-area: foto5;
+    background-image: url(../img/prod1.jpg);
+}
+
+.img6 {
+    grid-area: foto6;
+    background-image: url(../img/prod2.jpg);
+}
+
+.img7 {
+    grid-area: foto7;
+    background-image: url(../img/prod3.jpg);
+}
+
+.img8 {
+    grid-area: foto8;
+    background-image: url(../img/prod4.jpg);
+}
+
+.img9 {
+    grid-area: foto9;
+    background-image: url(../img/prod1.jpg);
+}
+
+.img10 {
+    grid-area: foto10;
+    background-image: url(../img/prod2.jpg);
+}
+
+.img11 {
+    grid-area: foto11;
+    background-image: url(../img/prod3.jpg);
+}
+
+.img12 {
+    grid-area: foto12;
+    background-image: url(../img/prod4.jpg);
+}
+
+.imagenes-container {
+    display: grid;
+    grid-template-rows: repeat(4, 250px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "foto1 foto2 foto3 foto4"
+        "foto5 foto5 foto6 foto7"
+        "foto8 foto9 foto10 foto7"
+        "foto8 foto11 foto12 foto12";
+    gap: 20px;
+    padding: 30px 50px 75px;
+
+    div {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px black;
+    }
+}
+.anim {
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(1.3);
+    }
+    
+}

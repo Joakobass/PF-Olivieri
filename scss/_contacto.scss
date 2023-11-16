@@ -1,0 +1,37 @@
+form {
+    h2 {
+        font-size: 50px;
+        color: #00d700;
+        padding-bottom: 30px;
+    }
+
+    margin: 40px;
+    text-align: center;
+
+    input,
+    textarea {
+        display: block;
+        margin: 10px 0px 10px 25%;
+        width: 50%;
+        font-size: 35px;
+    }
+}
+
+.boton {
+    width: 15%;
+}
+
+main {
+    h2 {
+        font-size: 50px;
+        color: #00d700;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    iframe {
+        margin: 10px 0px 10px 25%;
+        width: 50%;
+        font-size: 35px;
+    }
+}

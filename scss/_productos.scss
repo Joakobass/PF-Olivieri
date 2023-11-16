@@ -1,0 +1,19 @@
+.precio {
+    padding: 20px;
+    font-size: 30px;
+    color: #00d700;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.listaProductos ul {
+    list-style: none;
+
+    li img {
+        height: 300px;
+        margin: 10px 10px 10px 43%;
+        border: 10px outset #36066a;
+        border-radius: 15px;
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.5);
+    }
+}

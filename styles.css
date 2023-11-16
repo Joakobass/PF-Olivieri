@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Oswald:wght@500&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1b512d;
+}
+
+.fondo {
+  height: 550px;
+  background-image: url(./img/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fondo h1 {
+  font-family: Oswald;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  color: #00d700;
+  padding: 0 7px 0 7px;
+}
+.fondo p {
+  font-family: Oswald;
+  font-size: 2rem;
+  margin: 0;
+  color: #10a810;
+  font-weight: 400;
+  font-style: italic;
+}
+.fondo span {
+  font-family: Oswald;
+  font-size: 2rem;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.slogan {
+  background-color: rgba(0, 0, 0, 0.493);
+  border-radius: 5px;
+}
+
+.tituloMarcas {
+  color: #36066a;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #ffffff;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logos-marcas {
+  margin: 30px 0;
+}
+
+.caja-png {
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+.celda {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #36066a;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.burguer {
+  font-size: 30px;
+  color: #d1d1d1;
+}
+
+.boton-barras {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+.show,
+.collapsing {
+  padding-top: 4.5rem;
+}
+
+.logoHeader {
+  height: 100px;
+  width: 100px;
+  background-image: url(img/logo-header.png);
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #158b2d;
+}
+
+footer {
+  background-color: #36066a;
+  text-align: center;
+}
+footer div .col {
+  margin: 20px 0;
+}
+footer p {
+  color: #00d700;
+  font-size: 17px;
+}
+
+.logoFooter {
+  background-image: url(../img/logoFooter.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+footer div a {
+  color: #00d700;
+  transition: color 0.5s;
+}
+footer div a:hover {
+  color: #fff;
+}
+
+.links {
+  font-size: 40px;
+}
+
+.img-size {
+  width: 100%;
+  height: 480px;
+}
+
+.texto-hist {
+  font-size: 23px;
+  font-family: Kanit;
+  text-align: 50px;
+  margin: 0;
+}
+
+.carousel-inner {
+  border-radius: 50px;
+  box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-galeria {
+  color: #36066a;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #ffffff;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.img1 {
+  grid-area: foto1;
+  background-image: url(../img/prod1.jpg);
+}
+
+.img2 {
+  grid-area: foto2;
+  background-image: url(../img/prod2.jpg);
+}
+
+.img3 {
+  grid-area: foto3;
+  background-image: url(../img/prod3.jpg);
+}
+
+.img4 {
+  grid-area: foto4;
+  background-image: url(../img/prod4.jpg);
+}
+
+.img5 {
+  grid-area: foto5;
+  background-image: url(../img/prod1.jpg);
+}
+
+.img6 {
+  grid-area: foto6;
+  background-image: url(../img/prod2.jpg);
+}
+
+.img7 {
+  grid-area: foto7;
+  background-image: url(../img/prod3.jpg);
+}
+
+.img8 {
+  grid-area: foto8;
+  background-image: url(../img/prod4.jpg);
+}
+
+.img9 {
+  grid-area: foto9;
+  background-image: url(../img/prod1.jpg);
+}
+
+.img10 {
+  grid-area: foto10;
+  background-image: url(../img/prod2.jpg);
+}
+
+.img11 {
+  grid-area: foto11;
+  background-image: url(../img/prod3.jpg);
+}
+
+.img12 {
+  grid-area: foto12;
+  background-image: url(../img/prod4.jpg);
+}
+
+.imagenes-container {
+  display: grid;
+  grid-template-rows: repeat(4, 250px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "foto1 foto2 foto3 foto4" "foto5 foto5 foto6 foto7" "foto8 foto9 foto10 foto7" "foto8 foto11 foto12 foto12";
+  gap: 20px;
+  padding: 30px 50px 75px;
+}
+.imagenes-container div {
+  background-position: center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.anim {
+  transition: all 1s;
+}
+.anim:hover {
+  transform: scale(1.3);
+}
+
+.precio {
+  padding: 20px;
+  font-size: 30px;
+  color: #00d700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.listaProductos ul {
+  list-style: none;
+}
+.listaProductos ul li img {
+  height: 300px;
+  margin: 10px 10px 10px 43%;
+  border: 10px outset #36066a;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  margin: 40px;
+  text-align: center;
+}
+form h2 {
+  font-size: 50px;
+  color: #00d700;
+  padding-bottom: 30px;
+}
+form input,
+form textarea {
+  display: block;
+  margin: 10px 0px 10px 25%;
+  width: 50%;
+  font-size: 35px;
+}
+
+.boton {
+  width: 15%;
+}
+
+main h2 {
+  font-size: 50px;
+  color: #00d700;
+  padding-bottom: 30px;
+  text-align: center;
+}
+main iframe {
+  margin: 10px 0px 10px 25%;
+  width: 50%;
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .slogan {
+    transform: scale(1.3);
+  }
+}
+@media only screen and (max-width: 425px) {
+  .slogan {
+    transform: scale(0.8);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .links {
+    font-size: 30px;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  .imagenes-container {
+    grid-template-rows: repeat(6, 250px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "foto1 foto2 foto2" "foto3 foto3 foto4" "foto5 foto6 foto4" "foto7 foto7 foto8" "foto9 foto10 foto11" "foto9 foto12 foto12";
+    gap: 20px;
+    padding: 30px 50px 75px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+  .imagenes-container {
+    grid-template-rows: repeat(12, 250px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9" "foto10" "foto11" "foto12";
+    gap: 20px;
+    padding: 30px 50px 75px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

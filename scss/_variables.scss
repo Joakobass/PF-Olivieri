@@ -1,0 +1,19 @@
+
+// fuentes
+$font1: Kanit;
+$font2: Oswald;
+$font3: Poppins; //no esta usada - revisar
+
+// paleta colores
+
+@mixin titulos {
+    color: #36066a;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px #ffffff;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
