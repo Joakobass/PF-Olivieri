@@ -148,7 +148,7 @@ footer p {
 }
 
 .logoFooter {
-  background-image: url(../img/logoFooter.png);
+  background-image: url(img/logoFooter.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,62 +201,62 @@ footer div a:hover {
 
 .img1 {
   grid-area: foto1;
-  background-image: url(../img/prod1.jpg);
+  background-image: url(img/prod1.jpg);
 }
 
 .img2 {
   grid-area: foto2;
-  background-image: url(../img/prod2.jpg);
+  background-image: url(img/prod2.jpg);
 }
 
 .img3 {
   grid-area: foto3;
-  background-image: url(../img/prod3.jpg);
+  background-image: url(img/prod3.jpg);
 }
 
 .img4 {
   grid-area: foto4;
-  background-image: url(../img/prod4.jpg);
+  background-image: url(img/prod4.jpg);
 }
 
 .img5 {
   grid-area: foto5;
-  background-image: url(../img/prod1.jpg);
+  background-image: url(img/prod1.jpg);
 }
 
 .img6 {
   grid-area: foto6;
-  background-image: url(../img/prod2.jpg);
+  background-image: url(img/prod2.jpg);
 }
 
 .img7 {
   grid-area: foto7;
-  background-image: url(../img/prod3.jpg);
+  background-image: url(img/prod3.jpg);
 }
 
 .img8 {
   grid-area: foto8;
-  background-image: url(../img/prod4.jpg);
+  background-image: url(img/prod4.jpg);
 }
 
 .img9 {
   grid-area: foto9;
-  background-image: url(../img/prod1.jpg);
+  background-image: url(img/prod1.jpg);
 }
 
 .img10 {
   grid-area: foto10;
-  background-image: url(../img/prod2.jpg);
+  background-image: url(img/prod2.jpg);
 }
 
 .img11 {
   grid-area: foto11;
-  background-image: url(../img/prod3.jpg);
+  background-image: url(img/prod3.jpg);
 }
 
 .img12 {
   grid-area: foto12;
-  background-image: url(../img/prod4.jpg);
+  background-image: url(img/prod4.jpg);
 }
 
 .imagenes-container {
@@ -359,7 +359,7 @@ main iframe {
     padding: 30px 50px 75px;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 425px) {
+@media only screen and (min-width: 50px) and (max-width: 425px) {
   .imagenes-container {
     grid-template-rows: repeat(12, 250px);
     grid-template-columns: 1fr;
