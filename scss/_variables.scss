@@ -1,10 +1,12 @@
 
 // fuentes
-$font1: Kanit;
-$font2: Oswald;
-$font3: Poppins; //no esta usada - revisar
+$font1: Kanit, sans-serif;
+$font2: Oswald, sans-serif;
+$font3: 'Bebas Neue', sans-serif;
+$font4: Poppins, sans-serif;
 
 // paleta colores
+$bg-color-general: #1b512d;
 
 @mixin titulos {
     color: #36066a;

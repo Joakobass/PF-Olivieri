@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font4;
 }
 
 html {
@@ -10,5 +10,5 @@ html {
 }
 
 body {
-    background-color: #1b512d;
+    background-color: $bg-color-general;
 }

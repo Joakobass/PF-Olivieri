@@ -1,19 +1,77 @@
-.precio {
-    padding: 20px;
-    font-size: 30px;
-    color: #00d700;
-    text-align: center;
-    text-decoration: underline;
+.imagen-carta {
+    background-position: center;
+    background-size: cover;
+    // background-repeat: no-repeat;
+    height: 200px;
+    background-color: green;
 }
 
-.listaProductos ul {
-    list-style: none;
+.prod1 {
+    background-image: url(img/productos/precio1.jpg);
+}
+.prod2 {
+    background-image: url(img/productos/precio2.jpg);
+}
+.prod3 {
+    background-image: url(img/productos/precio3.jpg);
+}
+.prod4 {
+    background-image: url(img/productos/precio4.jpg);
+}
+.prod5 {
+    background-image: url(img/productos/precio5.jpg);
+}
+.prod6 {
+    background-image: url(img/productos/precio6.jpg);
+}
+.prod7 {
+    background-image: url(img/productos/precio7.jpg);
+}
+.prod8 {
+    background-image: url(img/productos/precio8.jpg);
+}
+.prod9 {
+    background-image: url(img/productos/precio9.jpg);
+}
+.prod10 {
+    background-image: url(img/productos/precio10.jpg);
+}
+.prod11 {
+    background-image: url(img/productos/precio11.jpg);
+}
+.prod12 {
+    background-image: url(img/productos/precio12.jpg);
+}
 
-    li img {
-        height: 300px;
-        margin: 10px 10px 10px 43%;
-        border: 10px outset #36066a;
-        border-radius: 15px;
-        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.5);
+.card{
+    box-shadow: 5px 5px 10px black;
+    background-color: #ffffff80;
+    margin: 10px;
+}
+
+.btn-producto {
+    background-color: green;
+    border-color: green;
+    transition: all 0.5;
+    &:hover, &:active{
+        background-color: rgb(0, 82, 0);
+        border-color: rgb(0, 82, 0);
     }
+}
+
+.titulo-productos{
+    @include titulos;
+}
+
+.card-header{
+    font-family: $font3;
+    font-weight: 900;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.card-text{
+    font-family: $font4;
+    font-weight: 300;
 }
