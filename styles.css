@@ -379,36 +379,52 @@ footer div a:hover {
 }
 
 form {
-  margin: 40px;
-  text-align: center;
-}
-form h2 {
-  font-size: 50px;
-  color: #00d700;
-  padding-bottom: 30px;
-}
-form input,
-form textarea {
-  display: block;
-  margin: 10px 0px 10px 25%;
-  width: 50%;
-  font-size: 35px;
+  display: flex;
+  flex-direction: column;
 }
 
-.boton {
-  width: 15%;
+.titulo-contacto {
+  color: #36066a;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #ffffff;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+textarea {
+  height: 250px !important;
+}
+
+.btn-contacto {
+  background-color: green;
+  border-color: green;
+  transition: all 0.5;
+}
+.btn-contacto:hover, .btn-contacto:active {
+  background-color: rgb(0, 82, 0);
+  border-color: rgb(0, 82, 0);
 }
 
 main h2 {
-  font-size: 50px;
+  font-size: 30px;
   color: #00d700;
-  padding-bottom: 30px;
+  margin: 0;
+  padding: 15px;
   text-align: center;
 }
-main iframe {
-  margin: 10px 0px 10px 25%;
-  width: 50%;
-  font-size: 35px;
+
+.container-iframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-iframe iframe {
+  box-shadow: 5px 5px 10px black;
+  height: 350px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -443,6 +459,44 @@ main iframe {
     grid-template-areas: "foto1" "foto2" "foto3" "foto4" "foto5" "foto6" "foto7" "foto8" "foto9" "foto10" "foto11" "foto12";
     gap: 20px;
     padding: 30px 50px 75px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .input1 {
+    grid-area: input1;
+  }
+  .input2 {
+    grid-area: input2;
+  }
+  .input3 {
+    grid-area: input3;
+  }
+  .input4 {
+    grid-area: input4;
+  }
+  .input5 {
+    grid-area: input5;
+  }
+  .input6 {
+    grid-area: input6;
+  }
+  form {
+    display: grid;
+    grid-template-rows: repeat(4, 70px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "input1 input1" "input2 input3" "input4 input5" "input4 input6";
+    gap: 5px;
+  }
+  textarea {
+    height: 140px !important;
+  }
+  .container-iframe {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .container-iframe iframe {
+    width: 30%;
   }
 }
 
