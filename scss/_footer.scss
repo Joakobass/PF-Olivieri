@@ -1,5 +1,5 @@
 footer {
-    background-color: #36066a;
+    background-color: $color-general2;
     text-align: center;
 
     div .col {
@@ -7,7 +7,7 @@ footer {
     }
 
     p {
-        color: #00d700;
+        color: $color-general3;
         font-size: 17px;
     }
 }
@@ -24,7 +24,7 @@ footer {
 }
 
 footer div a {
-    color: #00d700;
+    color: $color-general3;
     transition: color 0.5s;
 
     &:hover {

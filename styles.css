@@ -62,6 +62,7 @@ body {
   font-weight: 600;
   text-shadow: 0px 0px 10px #ffffff;
   margin-top: 15px;
+  margin-bottom: 0;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -173,18 +174,32 @@ footer div a:hover {
 .img-size {
   width: 100%;
   height: 480px;
+  object-fit: fill;
 }
 
 .texto-hist {
   font-size: 23px;
   font-family: Kanit, sans-serif;
-  text-align: 50px;
   margin: 0;
 }
 
 .carousel-inner {
-  border-radius: 50px;
-  box-shadow: 0 5px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  width: 75%;
+}
+
+.titulo-historia {
+  color: #36066a;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #ffffff;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .titulo-galeria {
@@ -194,6 +209,7 @@ footer div a:hover {
   font-weight: 600;
   text-shadow: 0px 0px 10px #ffffff;
   margin-top: 15px;
+  margin-bottom: 0;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -344,13 +360,13 @@ footer div a:hover {
 }
 
 .btn-producto {
-  background-color: green;
-  border-color: green;
+  background-color: #008000;
+  border-color: #008000;
   transition: all 0.5;
 }
 .btn-producto:hover, .btn-producto:active {
-  background-color: rgb(0, 82, 0);
-  border-color: rgb(0, 82, 0);
+  background-color: #005200 !important;
+  border-color: #005200 !important;
 }
 
 .titulo-productos {
@@ -360,6 +376,7 @@ footer div a:hover {
   font-weight: 600;
   text-shadow: 0px 0px 10px #ffffff;
   margin-top: 15px;
+  margin-bottom: 0;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -390,6 +407,7 @@ form {
   font-weight: 600;
   text-shadow: 0px 0px 10px #ffffff;
   margin-top: 15px;
+  margin-bottom: 0;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
@@ -400,13 +418,13 @@ textarea {
 }
 
 .btn-contacto {
-  background-color: green;
-  border-color: green;
+  background-color: #008000;
+  border-color: #008000;
   transition: all 0.5;
 }
 .btn-contacto:hover, .btn-contacto:active {
-  background-color: rgb(0, 82, 0);
-  border-color: rgb(0, 82, 0);
+  background-color: #005200 !important;
+  border-color: #005200 !important;
 }
 
 main h2 {
